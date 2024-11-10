@@ -6,7 +6,7 @@ A robust FastAPI application for employee management, built with clean architect
 
 ### Core Functionality
 - **Employee Management**: Complete CRUD operations for employee records
-- **User Management**: Secure user system with authentication
+- **User Management**:  User system with authentication
 - **Reporting System**: Reporting features with salary and age analytics
 - **JWT Authentication**: Secure endpoints with JSON Web Token authentication
 - **Async Operations**: Built with asyncio and SQLAlchemy async for optimal performance
