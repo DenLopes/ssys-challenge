@@ -5,7 +5,7 @@ from application.services.user_service import UserService
 from api.middlewares.auth_middleware import get_current_user
 from domain.entities.user import UserCreate, User, UserUpdate
 
-router = APIRouter(prefix="/users", tags=["users"])
+router = APIRouter(prefix="/users", tags=["Users"])
 
 @router.post("/", response_model=User, status_code=status.HTTP_201_CREATED)
 async def register_user(

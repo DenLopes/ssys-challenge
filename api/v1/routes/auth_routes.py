@@ -3,7 +3,7 @@ from core.di.services import get_auth_service
 from application.services.auth_service import AuthService
 from domain.entities.auth import LoginRequest, TokenResponse  # You'll need to create these
 
-router = APIRouter(prefix="/auth", tags=["authentication"])
+router = APIRouter(prefix="/auth", tags=["Authentication"])
 
 @router.post("/login", response_model=TokenResponse)
 async def login(

@@ -5,6 +5,8 @@ import uvicorn
 
 app = FastAPI(
     title="SSYS Employee Manager",
+    version="0.0.1",
+    description="Employee Management API",
 )
 
 app.include_router(auth_routes.router)

@@ -12,7 +12,7 @@ from domain.entities.employee import (
     AgeReport
 )
 
-router = APIRouter(prefix="/employees", tags=["employees"])
+router = APIRouter(prefix="/employees", tags=["Employees"])
 
 @router.get("/", response_model=List[Employee])
 async def list_employees(

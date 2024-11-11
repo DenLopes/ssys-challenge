@@ -5,7 +5,7 @@ from application.services.employee_reports_service import EmployeeReportsService
 from domain.entities.employee import SalaryReport, AgeReport
 from domain.entities.user import User
 
-router = APIRouter(prefix="/reports/employees", tags=["employee reports"])
+router = APIRouter(prefix="/reports/employees", tags=["Employee reports"])
 
 @router.get("/salary/", response_model=SalaryReport)
 async def get_salary_report(
