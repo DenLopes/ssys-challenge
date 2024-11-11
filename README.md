@@ -2,11 +2,19 @@
 
 A robust FastAPI application for employee management, built with clean architecture principles and modern Python practices. This project was developed as part of the SSYS job application process.
 
+## Try it Out
+
+The application is deployed and ready to use:
+- **Production URL**: https://ssys-challenge.gnlware.com
+- **API Documentation**:
+  - Swagger UI: https://ssys-challenge.gnlware.com/docs
+  - ReDoc: https://ssys-challenge.gnlware.com/redoc
+
 ## Features
 
 ### Core Functionality
 - **Employee Management**: Complete CRUD operations for employee records
-- **User Management**:  User system with authentication
+- **User Management**: User system with authentication
 - **Reporting System**: Reporting features with salary and age analytics
 - **JWT Authentication**: Secure endpoints with JSON Web Token authentication
 - **Async Operations**: Built with asyncio and SQLAlchemy async for optimal performance
@@ -118,20 +126,8 @@ alembic upgrade head
 exit
 ```
 
-### Production Deployment
-The application is deployed and accessible at:
-```
-https://ssys-challenge.gnlware.com
-```
-## API Documentation
-The API documentation is available in both development and production environments.
-
-### Production Documentation
-- Swagger UI: `https://ssys-challenge.gnlware.com/docs`
-- ReDoc: `https://ssys-challenge.gnlware.com/redoc`
-
 ## Local Documentation
-Once running, API documentation is available at:
+Once running locally, API documentation is available at:
 - Swagger UI: `http://localhost:8000/docs`
 - ReDoc: `http://localhost:8000/redoc`
 

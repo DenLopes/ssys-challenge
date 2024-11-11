@@ -28,6 +28,12 @@ class EmployeeUpdate(BaseModel):
     department: str | None = None
     salary: Decimal | None = Field(None, max_digits=10, decimal_places=2)
     birth_date: date | None = None
+    
+    class Config:
+        from_attributes = True
+        json_encoders = {
+            date: lambda v: v.strftime("%d-%m-%Y")
+        }
 
 class SalaryReport(BaseModel):
     lowest: Employee
