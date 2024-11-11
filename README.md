@@ -27,7 +27,6 @@ The application is deployed and ready to use:
 - SQLAlchemy for async database operations
 - Alembic for database migrations
 - Docker and Docker Compose for containerization
-- Production deployment ready with Caddy
 
 ## Project Structure
 ```
