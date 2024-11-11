@@ -116,7 +116,7 @@ docker-compose up -build
 3. Run initial database migrations:
 ```bash
 # Enter the application container
-docker-compose exec <container-id> bash
+docker exec -it <container-id> bash
 
 # Run migrations
 alembic upgrade head
